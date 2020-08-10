@@ -20,8 +20,8 @@ class CreateTasksTable extends Migration
             $table->string('title');
             $table->text('body');
             $table->tinyInteger('done')->default(0);
-            $table->date('date');
-            $table->smallInteger('every')->nullable();
+            $table->date('date')->nullable(true);
+            $table->smallInteger('every')->nullable(true);
             $table->softDeletes();
             $table->timestamps();
         });
