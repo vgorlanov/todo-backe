@@ -20,6 +20,14 @@ class ProjectController extends Controller
     }
 
     /**
+     * @return JsonResponse
+     */
+    public function index(): JsonResponse
+    {
+        return response()->json($this->user->projects, 200);
+    }
+
+    /**
      * Store a newly created resource in storage.
      *
      * @param ProjectRequest $request

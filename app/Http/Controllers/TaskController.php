@@ -8,7 +8,6 @@ use App\Task;
 use App\User;
 
 
-
 class TaskController extends Controller
 {
     /**
@@ -28,9 +27,7 @@ class TaskController extends Controller
      */
     public function index(): JsonResponse
     {
-        $result = $this->user->tasks()->with('project')->get();
-
-        return response()->json($result, 200);
+        return response()->json($this->user->tasks, 200);
     }
 
     /**
@@ -57,7 +54,8 @@ class TaskController extends Controller
      */
     public function update(TaskRequest $request, Task $task): JsonResponse
     {
-        return response()->json($task->update($request->input()), 200);
+        $task->update($request->input());
+        return response()->json($task, 200);
     }
 
     /**
