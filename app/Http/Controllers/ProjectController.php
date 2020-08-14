@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests\ProjectRequest;
 use App\Project;
 use App\User;
+use http\Env\Request;
 use Illuminate\Http\JsonResponse;
 
 class ProjectController extends Controller
@@ -24,6 +25,7 @@ class ProjectController extends Controller
      */
     public function index(): JsonResponse
     {
+
         return response()->json($this->user->projects, 200);
     }
 
@@ -51,7 +53,8 @@ class ProjectController extends Controller
      */
     public function update(ProjectRequest $request, Project $project): JsonResponse
     {
-        return response()->json($project->update($request->input()), 200);
+        $project->update($request->input());
+        return response()->json($project, 200);
     }
 
     /**
@@ -63,6 +66,8 @@ class ProjectController extends Controller
      */
     public function destroy(Project $project): JsonResponse
     {
+        $project->tasks()->delete();
+
         return response()->json($project->delete());
     }
 }
