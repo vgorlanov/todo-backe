@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Database\Eloquent\Collection;
 use \Illuminate\Http\JsonResponse;
 use App\Http\Requests\TaskRequest;
 use App\Task;
@@ -23,11 +24,22 @@ class TaskController extends Controller
     /**
      * Display a listing of the resource.
      *
-     * @return JsonResponse
+     * @return Collection
      */
-    public function index(): JsonResponse
+    public function index(): Collection
     {
-        return response()->json($this->user->tasks, 200);
+        $task = Task::find(1);
+
+        $task->setOrder('project', 4);
+        $result = $task->getOrder('project');
+
+
+
+
+
+        return $this->user->tasks()->where('done', '=', Task::ACTIVE)->orWhere(static function ($query) {
+            $query->where('done', '=', Task::DONE)->where('date', '>=', now()->format('Y-m-d'));
+        })->orderBy('done', 'asc')->orderByRaw("cast(orders->'$.project' as unsigned) asc")->get();
     }
 
     /**
