@@ -3,9 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\ProjectRequest;
-use App\Project;
-use App\User;
-use http\Env\Request;
+use App\Models\Project;
+use App\Models\User;
 use Illuminate\Http\JsonResponse;
 
 class ProjectController extends Controller
@@ -18,6 +17,7 @@ class ProjectController extends Controller
     public function __construct()
     {
         $this->user = User::find(1);
+        
     }
 
     /**

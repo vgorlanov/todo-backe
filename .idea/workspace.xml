@@ -4,15 +4,14 @@
     <list default="true" id="5e58a7d1-9324-45f3-ab6a-268d25f2929c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TaskController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TaskController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Task.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Task.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Project.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Project.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Task.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Task.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_09_205347_create_tasks_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_08_09_205347_create_tasks_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/components/Project/Project.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../front/components/Project/Project.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/components/Project/ProjectIndex.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../front/components/Project/ProjectIndex.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/components/Task/Task.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../front/components/Task/Task.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/components/Task/TaskList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../front/components/Task/TaskList.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/nuxt.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +151,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.data.extractors.current.export.id" value="SQL Inserts" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/todo_tasks.sql" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../upch-full" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -162,16 +161,18 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vuejs.nuxt.types-notification-shown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Models" />
       <recent name="$PROJECT_DIR$/../front/components/Task" />
       <recent name="$PROJECT_DIR$/../front/components/Project" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.ProjectIndex.vue">
+  <component name="RunManager" selected="PHP Script.TaskController.php">
     <configuration name="ProjectIndex.vue" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/back/components/Project/ProjectIndex.vue" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -179,8 +180,12 @@
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <configuration name="TaskController.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/app/Http/Controllers/TaskController.php">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.TaskController.php" />
         <item itemvalue="JavaScript Debug.ProjectIndex.vue" />
       </list>
     </recent_temporary>
@@ -197,7 +202,22 @@
       <workItem from="1597408559461" duration="21511000" />
       <workItem from="1597502959153" duration="8939000" />
       <workItem from="1597577466619" duration="14955000" />
-      <workItem from="1597658766298" duration="15647000" />
+      <workItem from="1597658766298" duration="16226000" />
+      <workItem from="1597760490295" duration="8574000" />
+      <workItem from="1597827584506" duration="10061000" />
+      <workItem from="1597842327997" duration="16958000" />
+      <workItem from="1597866124225" duration="163000" />
+      <workItem from="1597911475627" duration="3163000" />
+      <workItem from="1597923605488" duration="16040000" />
+      <workItem from="1598000204293" duration="15994000" />
+      <workItem from="1598098312157" duration="15290000" />
+      <workItem from="1598174617291" duration="599000" />
+      <workItem from="1598257445386" duration="2249000" />
+      <workItem from="1598285217990" duration="574000" />
+      <workItem from="1598285863035" duration="5000" />
+      <workItem from="1598286714068" duration="2305000" />
+      <workItem from="1598300103040" duration="1040000" />
+      <workItem from="1598344234848" duration="11000" />
     </task>
     <servers />
   </component>
@@ -205,69 +225,86 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="901" y="395" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597410326484">
+    <state x="901" y="395" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597830252382">
       <screen x="52" y="27" width="2508" height="1413" />
     </state>
-    <state x="901" y="395" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/52.27.2508.1413@52.27.2508.1413" timestamp="1597410326484" />
-    <state x="1095" y="414" width="412" height="645" key="#com.intellij.ide.util.MemberChooser" timestamp="1597412654766">
+    <state x="901" y="395" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/52.27.2508.1413@52.27.2508.1413" timestamp="1597830252382" />
+    <state x="1095" y="414" width="412" height="673" key="#com.intellij.ide.util.MemberChooser" timestamp="1598099549707">
       <screen x="52" y="27" width="2508" height="1413" />
     </state>
-    <state x="1095" y="414" width="412" height="645" key="#com.intellij.ide.util.MemberChooser/52.27.2508.1413@52.27.2508.1413" timestamp="1597412654766" />
-    <state x="1089" y="491" width="424" height="491" key="FileChooserDialogImpl" timestamp="1597664056794">
+    <state x="1095" y="414" width="412" height="673" key="#com.intellij.ide.util.MemberChooser/52.27.2508.1413@52.27.2508.1413" timestamp="1598099549706" />
+    <state x="1039" y="491" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1597943945188">
       <screen x="52" y="27" width="2508" height="1413" />
     </state>
-    <state x="1089" y="491" width="424" height="491" key="FileChooserDialogImpl/52.27.2508.1413@52.27.2508.1413" timestamp="1597664056794" />
-    <state width="1702" height="386" key="GridCell.Tab.0.bottom" timestamp="1597664122942">
+    <state x="1039" y="491" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/52.27.2508.1413@52.27.2508.1413" timestamp="1597943945187" />
+    <state x="1089" y="493" width="424" height="491" key="FileChooserDialogImpl" timestamp="1598344244193">
+      <screen x="52" y="30" width="2508" height="1410" />
+    </state>
+    <state x="1089" y="491" width="424" height="491" key="FileChooserDialogImpl/52.27.2508.1413@52.27.2508.1413" timestamp="1598278276822" />
+    <state x="1089" y="493" width="424" height="491" key="FileChooserDialogImpl/52.30.2508.1410@52.30.2508.1410" timestamp="1598344244193" />
+    <state width="2040" height="385" key="GridCell.Tab.0.bottom" timestamp="1598300601316">
+      <screen x="52" y="30" width="2508" height="1410" />
+    </state>
+    <state width="1702" height="386" key="GridCell.Tab.0.bottom/52.27.2508.1413@52.27.2508.1413" timestamp="1598106730110" />
+    <state width="2040" height="385" key="GridCell.Tab.0.bottom/52.30.2508.1410@52.30.2508.1410" timestamp="1598300601316" />
+    <state width="2040" height="385" key="GridCell.Tab.0.center" timestamp="1598300601316">
+      <screen x="52" y="30" width="2508" height="1410" />
+    </state>
+    <state width="1702" height="386" key="GridCell.Tab.0.center/52.27.2508.1413@52.27.2508.1413" timestamp="1598106730108" />
+    <state width="2040" height="385" key="GridCell.Tab.0.center/52.30.2508.1410@52.30.2508.1410" timestamp="1598300601316" />
+    <state width="2040" height="385" key="GridCell.Tab.0.left" timestamp="1598300601316">
+      <screen x="52" y="30" width="2508" height="1410" />
+    </state>
+    <state width="1702" height="386" key="GridCell.Tab.0.left/52.27.2508.1413@52.27.2508.1413" timestamp="1598106730107" />
+    <state width="2040" height="385" key="GridCell.Tab.0.left/52.30.2508.1410@52.30.2508.1410" timestamp="1598300601316" />
+    <state width="2040" height="385" key="GridCell.Tab.0.right" timestamp="1598300601316">
+      <screen x="52" y="30" width="2508" height="1410" />
+    </state>
+    <state width="1702" height="386" key="GridCell.Tab.0.right/52.27.2508.1413@52.27.2508.1413" timestamp="1598106730109" />
+    <state width="2040" height="385" key="GridCell.Tab.0.right/52.30.2508.1410@52.30.2508.1410" timestamp="1598300601316" />
+    <state x="1056" y="453" width="521" height="568" key="NewPhpClassDialog" timestamp="1597858370088">
       <screen x="52" y="27" width="2508" height="1413" />
     </state>
-    <state width="1702" height="386" key="GridCell.Tab.0.bottom/52.27.2508.1413@52.27.2508.1413" timestamp="1597664122942" />
-    <state width="1702" height="386" key="GridCell.Tab.0.center" timestamp="1597664122942">
+    <state x="1056" y="453" width="521" height="568" key="NewPhpClassDialog/52.27.2508.1413@52.27.2508.1413" timestamp="1597858370088" />
+    <state x="1101" y="659" width="399" height="156" key="NewPhpFileDialog" timestamp="1597840051293">
       <screen x="52" y="27" width="2508" height="1413" />
     </state>
-    <state width="1702" height="386" key="GridCell.Tab.0.center/52.27.2508.1413@52.27.2508.1413" timestamp="1597664122942" />
-    <state width="1702" height="386" key="GridCell.Tab.0.left" timestamp="1597664122942">
+    <state x="1101" y="659" width="399" height="156" key="NewPhpFileDialog/52.27.2508.1413@52.27.2508.1413" timestamp="1597840051293" />
+    <state x="795" y="368" width="1022" height="737" key="SettingsEditor" timestamp="1597843518802">
       <screen x="52" y="27" width="2508" height="1413" />
     </state>
-    <state width="1702" height="386" key="GridCell.Tab.0.left/52.27.2508.1413@52.27.2508.1413" timestamp="1597664122942" />
-    <state width="1702" height="386" key="GridCell.Tab.0.right" timestamp="1597664122942">
+    <state x="795" y="368" width="1022" height="737" key="SettingsEditor/52.27.2508.1413@52.27.2508.1413" timestamp="1597843518802" />
+    <state x="901" y="469" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1597690439314">
       <screen x="52" y="27" width="2508" height="1413" />
     </state>
-    <state width="1702" height="386" key="GridCell.Tab.0.right/52.27.2508.1413@52.27.2508.1413" timestamp="1597664122942" />
-    <state x="1056" y="453" width="489" height="568" key="NewPhpClassDialog" timestamp="1597689536862">
+    <state x="901" y="469" width="800" height="535" key="Vcs.Push.Dialog.v2/52.27.2508.1413@52.27.2508.1413" timestamp="1597690439314" />
+    <state x="1194" y="598" width="367" height="285" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1597831083804">
       <screen x="52" y="27" width="2508" height="1413" />
     </state>
-    <state x="1056" y="453" width="489" height="568" key="NewPhpClassDialog/52.27.2508.1413@52.27.2508.1413" timestamp="1597689536862" />
-    <state x="795" y="368" width="1022" height="737" key="SettingsEditor" timestamp="1597660906520">
-      <screen x="52" y="27" width="2508" height="1413" />
-    </state>
-    <state x="795" y="368" width="1022" height="737" key="SettingsEditor/52.27.2508.1413@52.27.2508.1413" timestamp="1597660906520" />
-    <state x="901" y="469" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1597601029644">
-      <screen x="52" y="27" width="2508" height="1413" />
-    </state>
-    <state x="901" y="469" width="800" height="535" key="Vcs.Push.Dialog.v2/52.27.2508.1413@52.27.2508.1413" timestamp="1597601029644" />
-    <state x="1194" y="598" width="367" height="285" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1597664051832">
-      <screen x="52" y="27" width="2508" height="1413" />
-    </state>
-    <state x="1194" y="598" width="367" height="285" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/52.27.2508.1413@52.27.2508.1413" timestamp="1597664051832" />
+    <state x="1194" y="598" width="367" height="285" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/52.27.2508.1413@52.27.2508.1413" timestamp="1597831083804" />
     <state x="889" y="391" width="824" height="691" key="com.intellij.database.dbimport.ImportDialog" timestamp="1597664068329">
       <screen x="52" y="27" width="2508" height="1413" />
     </state>
     <state x="889" y="391" width="824" height="691" key="com.intellij.database.dbimport.ImportDialog/52.27.2508.1413@52.27.2508.1413" timestamp="1597664068329" />
-    <state x="1202" y="638" width="207" height="197" key="com.intellij.database.run.ParametersPanel.Standalone" timestamp="1597661956570">
+    <state x="1202" y="638" width="207" height="197" key="com.intellij.database.run.ParametersPanel.Standalone" timestamp="1597851579984">
       <screen x="52" y="27" width="2508" height="1413" />
     </state>
-    <state x="1202" y="638" width="207" height="197" key="com.intellij.database.run.ParametersPanel.Standalone/52.27.2508.1413@52.27.2508.1413" timestamp="1597661956570" />
-    <state x="997" y="472" width="618" height="522" key="find.popup" timestamp="1597417331598">
+    <state x="1202" y="638" width="207" height="197" key="com.intellij.database.run.ParametersPanel.Standalone/52.27.2508.1413@52.27.2508.1413" timestamp="1597851579984" />
+    <state x="1087" y="648" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597930576420">
       <screen x="52" y="27" width="2508" height="1413" />
     </state>
-    <state x="997" y="472" width="618" height="522" key="find.popup/52.27.2508.1413@52.27.2508.1413" timestamp="1597417331598" />
-    <state x="970" y="342" width="672" height="677" key="run.anything.popup" timestamp="1597686197069">
+    <state x="1087" y="648" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/52.27.2508.1413@52.27.2508.1413" timestamp="1597930576420" />
+    <state x="997" y="472" width="618" height="522" key="find.popup" timestamp="1597839573875">
       <screen x="52" y="27" width="2508" height="1413" />
     </state>
-    <state x="970" y="342" width="672" height="677" key="run.anything.popup/52.27.2508.1413@52.27.2508.1413" timestamp="1597686197069" />
-    <state x="969" y="349" width="672" height="678" key="search.everywhere.popup" timestamp="1597664611597">
+    <state x="997" y="472" width="618" height="522" key="find.popup/52.27.2508.1413@52.27.2508.1413" timestamp="1597839573875" />
+    <state x="970" y="342" width="672" height="677" key="run.anything.popup" timestamp="1598100752705">
       <screen x="52" y="27" width="2508" height="1413" />
     </state>
-    <state x="969" y="349" width="672" height="678" key="search.everywhere.popup/52.27.2508.1413@52.27.2508.1413" timestamp="1597664611597" />
+    <state x="970" y="342" width="672" height="677" key="run.anything.popup/52.27.2508.1413@52.27.2508.1413" timestamp="1598100752705" />
+    <state x="969" y="349" width="672" height="678" key="search.everywhere.popup" timestamp="1598100832346">
+      <screen x="52" y="27" width="2508" height="1413" />
+    </state>
+    <state x="969" y="349" width="672" height="678" key="search.everywhere.popup/52.27.2508.1413@52.27.2508.1413" timestamp="1598100832346" />
   </component>
 </project>

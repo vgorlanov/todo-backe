@@ -15,7 +15,7 @@ class ProjectSeeder extends Seeder
         $faker = Faker\Factory::create();
 
         for ($i = 0; $i < 100; $i++) {
-            $project = new \App\Project();
+            $project = new \App\Models\Project();
             $project->title = $faker->text(random_int(10, 25));
             $project->user_id = random_int(1, 10);
             $project->save();
@@ -31,7 +31,7 @@ class ProjectSeeder extends Seeder
                     'date'    => $faker->dateTime(),
                 ];
 
-                \App\Task::create($taskArr);
+                \App\Models\Task::create($taskArr);
             }
         }
     }
